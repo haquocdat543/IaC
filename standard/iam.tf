@@ -6,7 +6,7 @@ locals {
 
 data "aws_iam_policy_document" "policy_doc" {
   statement {
-    actions   = ["s3:ListBucket"]
+    actions   = ["s3:*"]
     resources = [aws_s3_bucket.s3_bucket.arn]
   }
 
