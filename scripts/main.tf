@@ -1,11 +1,11 @@
 terraform {
   backend "s3" {
-    bucket         = var.bucket
-    key            = var.key
-    region         = var.region
-    encrypt        = var.encrypt
-    role_arn       = var.role_arn
-    dynamodb_table = var.dynamodb_table
+    bucket         = <your-bucket-name>
+    key            = <object-name>
+    region         = <your-region>
+    encrypt        = <true-or-false>
+    role_arn       = <your-role-arn>
+    dynamodb_table = <your-dynamodb-table>
   }
 }
 
