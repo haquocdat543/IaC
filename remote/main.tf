@@ -5,13 +5,12 @@ provider "aws" {
 
 terraform {
   cloud {
-    organization = "haquocdat"
+    organization = <your-organization>
 
     workspaces {
-      name = "haquocdat"
+      name = <your-name>
     }
   }
-
 }
 
 resource "aws_instance" "server" {
@@ -32,4 +31,3 @@ resource "aws_instance" "server" {
 output "public_ip" {
   value = aws_instance.server.public_ip
 }
-
