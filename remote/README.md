@@ -1,6 +1,7 @@
 # Remote backend
 This is a demonstration of setup remote backend using Terraform Cloud
 ## Step 1. Login to terraform cloud
+Login to terraform cloud follow this [link](https://app.terraform.io/app)
 ![step1](./numberized-images/1.jpg)
 ## Step 2. Create new project ( Choose CLI driven workflow )
 ![step2](./numberized-images/2.jpg)
@@ -25,6 +26,7 @@ This is a demonstration of setup remote backend using Terraform Cloud
 ## Step 12. Terraform init
 ![step12](./numberized-images/12.jpg)
 ## Step 13. Create Variables
+Set up two below variables follow your AWS access key and secret key
 ![step13](./numberized-images/13.jpg)
 ## Step 14. Terraform apply
 ![step14](./numberized-images/14.jpg)
