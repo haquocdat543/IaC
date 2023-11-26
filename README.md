@@ -2,11 +2,5 @@
 
 ## 1. Terraform
 ### 1. Backend
-#### 1. Standard
-#### 2. Remote
-### 2. Module
-
-
-
-
- 
+* Standard [standard](https://github.com/haquocdat543/IaC/tree/main/standard)
+* Remote [remote](https://github.com/haquocdat543/IaC/tree/main/remote)
