@@ -1,5 +1,5 @@
 # Remote backend
-This is a demonstration of setup remote backend using Terraform Cloud
+This is a demonstration of setup remote backend using Terraform Cloud and AWS
 ## Step 1. Login to terraform cloud
 Login to terraform cloud follow this [link](https://app.terraform.io/app)
 ![step1](./numberized-images/1.jpg)
