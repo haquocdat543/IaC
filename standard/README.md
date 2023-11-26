@@ -37,7 +37,7 @@ config = {
 ```
 Save 4 values above to else where.
 ## 6. Test
-Navigate to [scripts](https://github.com/haquocdat543/IaC/blob/main/scripts) or `IaC/scripts` and edit `main.tf`
+Navigate to [scripts](https://github.com/haquocdat543/IaC/blob/main/scripts) or `IaC/scripts` folder and edit `main.tf`
 
 ```
 terraform {
